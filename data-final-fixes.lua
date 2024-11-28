@@ -283,7 +283,7 @@ for _, name in pairs(finite_resource_names) do
 	else
 		if resource.icon_size == 32 then
 			resource.icons = {
-				{ icon = resource.icon },
+				{ icon = resource.icon, icon_size=32 },
 				{ icon = creative_mode_defines.mod_directory .. "/graphics/icons/infinite-resource-32.png" }
 			}
 		elseif resource.icon_size == 64 then
